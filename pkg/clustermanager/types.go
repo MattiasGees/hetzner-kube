@@ -20,6 +20,7 @@ type Cluster struct {
 	IsolatedEtcd  bool   `json:"isolated_etcd"`
 	CloudInitFile string `json:"cloud_init_file"`
 	NodeCIDR      string `json:"node_cidr"`
+	CNI           string `json:"cni"`
 }
 
 // NodeCommand is the structure used to define acommand to execute on a node
