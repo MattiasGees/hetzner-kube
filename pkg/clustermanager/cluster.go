@@ -77,7 +77,7 @@ func (manager *Manager) Cluster() Cluster {
 		CloudInitFile:     manager.cloudInitFile,
 		NodeCIDR:          manager.clusterProvider.GetNodeCidr(),
 		Cni:               manager.cni,
-		KubernetesVersion: "1.16.4",
+		KubernetesVersion: "1.17.2",
 	}
 }
 
