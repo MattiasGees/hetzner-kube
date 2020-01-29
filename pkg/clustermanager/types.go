@@ -20,6 +20,7 @@ type Cluster struct {
 	IsolatedEtcd      bool   `json:"isolated_etcd"`
 	CloudInitFile     string `json:"cloud_init_file"`
 	NodeCIDR          string `json:"node_cidr"`
+	Cni               string `json:"cni"`
 	KubernetesVersion string `json:"kubernetes_version"`
 }
 
